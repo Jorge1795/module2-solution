@@ -7,6 +7,16 @@
      .row{
       width:100%;
      }
+    <!--LARGE DEVICES ONLY-->
+    @meadia(min-width: 1200px;){
+     .col-lg-1, .col-lg-2, .col-lg-3,
+    {
+    float: left;
+    border: 1px solid green;
+    }
+    .col-lg-1{
+     width:8.33%;
+    }
     </style>
    </head>
    <body>
@@ -18,17 +28,17 @@
     <p>Resize this responsive page to see the effect!</p> 
   </div>
   <div class="row">
-    <div class="col-sm-4">
+    <div class="col-lg-1">
       <h3>Column 1</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
       <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
     </div>
-    <div class="col-sm-4">
+    <div class="col-lg-2">
       <h3>Column 2</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
       <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
     </div>
-    <div class="col-sm-4">
+    <div class="col-;g-3">
       <h3>Column 3</h3>        
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
       <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
