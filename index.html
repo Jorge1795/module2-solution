@@ -1,4 +1,4 @@
- <!doctype html>
+<!doctype html>
  <html>
    <head>
     <meta charset="utf-8">
@@ -11,12 +11,14 @@
 	 box-sizing: border-box;
 	 }
 	
-	 h1{
+
+	 #heading{
 	 margin-bottom: 15px;
+	 text-align: center;
 	   }
 	
 	p{
-	 border: 1px solid black;
+	 border: 5px solid black;
 	 background-color: #A52A2A;
 	 width: 90%;
 	 height: 150px;
@@ -24,7 +26,7 @@
 	 margin-left: auto;
 	 font-family: helvetica;
      color: white;
-	 text-align: center;
+	 text-align: ;
 	 }
    
 	.row{
@@ -34,7 +36,7 @@
     @media(min-width: 1200px){
     .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
            float: left;
-           border:1px solid green;
+           border:;
        }
        .col-lg-1{
         width: 8.33%;
@@ -82,10 +84,9 @@
 	    .col-lg-12{
         width: 100%;
        }
-        }     /**Medium Devices only**/
+         }    /**Medium Devices only**/
        @media (min-width: 950px) and (max-width: 1199px){
-        .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6,
-         .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+        .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
            float: left;
            border:1px solid green;
        }
@@ -135,22 +136,21 @@
 	    .col-md-12{
         width: 100%;
        }
-    </style>
+     
+    
+	 
+   </style>
    </head>
    <body>
-   
-  <h1>Responsive Layout</h1>
- 
- <div class="row">
-    <div class="col-lg-3 col-md-6"><p>item 1mmmmmmmm<br>mmmmmmmmmmmmmmm<br>mmmmmmmmmmmmmmmmmmm<br>jmmmmmmmmmmmmmmmmmmmm<br>jmmmmmmmmmmmmmm<br>mmmmmmmmj</p></div>
-    <div class="col-lg-3 col-md-6"><p>HEYmmmmmmm</p></div>
-   
-    <div class="col-lg-3 col-md-6"><p>Monicamm</p></div>
-    <div class="col-lg-3 col-md-6"><p>Jorgemmmmm</p></div>
-	<div class="col-lg-3 col-md-6"><p>Jorgenn</p></div>
-	<div class="col-lg-3 col-md-6"><p>Jorge</p></div>
-    <div class="col-lg-3 col-md-6"><p>Jorge</p></div>
-	<div class="col-lg-3 col-md-6"><p>Jorgemm</p></div>
+    
+    <h1 id="heading">Our Menu</h1>
+    
+    <div class="col-lg-4 col-md-6 col-sm-5"><p>Jorge</p> </div>
+    <div class="col-lg-4 col-md-6"><p>HEY</p></div>
+    <div class="col-lg-4 col-md-12"><p>Monica</p></div>
+    
     </div>
-     </body>
-     </html>
+ 
+	 </body>
+     </html> 
+
