@@ -58,6 +58,8 @@ h2{
   
 .chicken {
     background-color: orange;
+    border:none;
+    text-decoration:none;
          }
 
 .chicken:hover {
@@ -70,6 +72,8 @@ h2{
 
 .beef {
     background-color: red;
+     border:none;
+    text-decoration:none;
 	
 }
 
@@ -83,7 +87,8 @@ h2{
 
 .sushi {
     background-color: blue;
-    text-align:center;
+    border:none;
+    text-decoration:none;
 
 	   }
 
